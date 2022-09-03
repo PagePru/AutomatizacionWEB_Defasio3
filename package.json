@@ -1,0 +1,23 @@
+{
+  "name": "Desafio2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prueba1": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests",
+    "desafio3": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/desafio3",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "puppeteer": "^16.1.0"
+  }
+}
